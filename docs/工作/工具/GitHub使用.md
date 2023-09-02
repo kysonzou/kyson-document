@@ -29,26 +29,28 @@
 
 一开始以为链接就是简单的仓库链接+文件目录，这样不对，不是有效链接
 
->https://githubfast.com/kysonzou/Magic-Internet.git/rule/clashX.yaml
+>https://github.com/kysonzou/Magic-Internet.git/rule/clashX.yaml
 >
 >Not Found
 
 然后发现Github文件页面有一个permalink（永久链接），这也不对，这是这个页面的链接，不是文件内容的链接
 
->https://githubfast.com/kysonzou/Magic-Internet/blob/57591bb6c552ebd354299bbf04d42504f1f33590/rule/clashX.yaml
+>https://github.com/kysonzou/Magic-Internet/blob/57591bb6c552ebd354299bbf04d42504f1f33590/rule/clashX.yaml
 >
 >是网页的链接
 
 有个Raw（原始的）表示的是文件原始内容的意思，但是它直接显示的链接也不对
 
->https://external.githubfast.com/https/raw.githubusercontent.com/kysonzou/Magic-Internet/main/rule/clashX.yaml
+>https://external.github.com/https/raw.githubusercontent.com/kysonzou/Magic-Internet/main/rule/clashX.yaml
 >
 >在浏览器可以打开，但是在clashX客户端无效
+>
+>   <!--后来发现不是Raw是错的，而是因为那时候我是通过githubfast去链接的，所以给了一个这么奇怪的地址。Raw的正常链接就是下面的，话说加fast是真的好使-->
 
 后来通过对比其它github项目的链接依葫芦画瓢拼成了正确的引用链接
 
->https://usercontent.githubfast.com/raw/kysonzou/Magic-Internet/main/rule/clashX.yaml
+>https://raw.githubusercontent.com/kysonzou/Magic-Internet/main/rule/clashX.yaml 
 >
-> https://raw.githubusercontent.com/kysonzou/Magic-Internet/main/rule/clashX.yaml 
+> https://raw.githubusercontent.com/kysonzou/Magic-Internet/main/rule/shadowrocket.conf
 >
 >和前面的对比其实就是改一下就可以了

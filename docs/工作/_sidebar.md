@@ -1,7 +1,7 @@
 - CLI
   - [CLI程序-Basic](/工作/CLI/CLI程序-Basic.md)
   - [CLI程序-Git](/工作/CLI/CLI程序-Git.md)
-  - [CLI程序-Homebrew](/工作/CLI/CLI程序-Homebrew.md)
+  - [CLI程序-homebrew](/工作/CLI/CLI程序-homebrew.md)
   - [CLI程序-node&npm](/工作/CLI/CLI程序-node&npm.md)
   - [CLI程序-Ruby&RVM&Gem](/工作/CLI/CLI程序-Ruby&RVM&Gem.md)
   - [CLI程序-Shell介绍](/工作/CLI/CLI程序-Shell介绍.md)
