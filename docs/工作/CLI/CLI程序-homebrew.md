@@ -24,19 +24,19 @@ Homebrew目前支持MacOS和Linux系统
    >
    >报错连接不上这个链接
    >
-   >1. 如果有科学上网，可以在终端配置替换端口后再执行命令
+   >1. 如果有科学上网，可以在终端配置替换端口后再执行命令，替换成翻墙软件给的端口
    >
    >   ```bash
    >   export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
    >   ```
    >
+   >   后来想想是不是可以直接把这个配置写进～/.zshrc作为终端的全局配置呢？试过了妥妥的ok。
+   >
    >2. 没有科学上网，可以直接配置/etc/hosts文件，将raw.githubusercontent.com直接指向真实IP
    >
-   >   在[ipaddress.com/](https://www.ipaddress.com)查询 raw.githubusercontent.com 的真实IP 199.232.28.133 
+   >  在[ipaddress.com/](https://www.ipaddress.com)查询 raw.githubusercontent.com 的真实IP 199.232.28.133 
    >
-   >   修改hosts，添加如下内容：
-   >
-   >   199.232.28.133  raw.githubusercontent.com
+   >  修改hosts，添加如下内容： 199.232.28.133  raw.githubusercontent.com
    >
    >3. 用国内的镜像安装源，详情请看[Gitee / CunKai / HomebrewCN](https://link.zhihu.com/?target=https%3A//gitee.com/cunkai/HomebrewCN)
 
@@ -50,7 +50,7 @@ Homebrew目前支持MacOS和Linux系统
 
 3. 若上一步输入命令，回车后提示：`brew：command not found`。则需要进行环境配置，若成功则跳过该步骤：
 
-   因为Homebrew如果是基于 ARM 的 macOS的程序CLI会软链接至 `/opt/homebrew/bin` 目录，这个目录sell不会主动export它，如果是基于inte的CLI 命令会自动软链接至 `/usr/local/bin` 目录，sell会主动export这个目录。
+   Homebrew基于 ARM 的CLI程序会软链接至 `/opt/homebrew/bin` 目录，这个目录shell不会主动export它，如果是基于inte的CLI 程序会自动软链接至 `/usr/local/bin` 目录，shell会主动export这个目录。
 
    ```bash
    1、在终端通过vim打开～/.zshrc文件，如果没有则新建
@@ -61,8 +61,12 @@ Homebrew目前支持MacOS和Linux系统
    4、刷新配置文件
    source ~/.zshrc
    5、再次输入 brew -v 测试
+   
    ```
    
+   >这里看很多资料 export 都是把系统的那几个也加上，其实是不用的，只需要把我们自己需要的路径加上就行
+   >
+   >`PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"`
 
 ### 切换Homebrew源
 

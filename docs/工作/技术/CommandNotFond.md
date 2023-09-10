@@ -45,7 +45,7 @@ Linux环境下通常我们将Terminal可访问的程序放在`/bin`, `/usr/bin`,
 - 首先[zsh](https://link.jianshu.com/?t=http://402v.com/oh-my-zsh/)的配置文件在`~/.zshrc`，使用任何编辑器（vim、atom）打开这个文件，搜索`export`会看到有如下一行：
 
   ```text
-   export PATH="/Users/yourname/.rbenv/shims:/opt/iOSOpenDev/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+   export PATH="/Users/yourname/.rbenv/shims:/opt/iOSOpenDev/bin:$PATH"
   ```
 
   `PATH=`后是用`:`连接的多个`*/bin`路径[[1\]](#fn1)：
