@@ -51,7 +51,7 @@ POST：个人理解好像也是可以局部更新的回想以前使用的API<br>
 
 一个HTTP请求报文由请求行（request line）、请求头（header）、空行和请求数据4个部分组成，下图给出了请求报文的一般格式。
 
-![HTTP请求消息](./assets/HTTP请求消息.png)
+![HTTP请求消息](../assets/HTTP请求消息.png)
 
 #### 请求行
 
@@ -169,7 +169,7 @@ username=hello //正文
 
 HTTP响应也由三个部分组成，分别是：状态行、响应头、空行、响应正文。
 
-![HTTP响应消息](./assets/HTTP响应消息.jpeg)
+![HTTP响应消息](../assets/HTTP响应消息.jpeg)
 
 #### 状态行
 

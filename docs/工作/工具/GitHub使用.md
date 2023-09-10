@@ -53,4 +53,4 @@
 >
 > https://raw.githubusercontent.com/kysonzou/Magic-Internet/main/rule/shadowrocket.conf
 >
->和前面的对比其实就是改一下就可以了
+>和前面的对比其实就是改一下就可以了 
