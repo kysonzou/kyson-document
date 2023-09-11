@@ -81,6 +81,10 @@ Linux环境下通常我们将Terminal可访问的程序放在/bin、/sbin、/usr
 
    - 运行`source`命令使软链接生效
 
+     ```bash
+     source ~/.zshrc
+     ```
+   
    - 此时再次运行命令已经不会报错了。
 
 ### 参考

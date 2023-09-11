@@ -14,7 +14,7 @@ Homebrew目前支持MacOS和Linux系统
 
 1. 使用官网的安装方法，通过terminal输入以下代码：
 
-   ```zsh
+   ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
