@@ -9,6 +9,7 @@
   - [CLI程序-SSH登录](/工作/CLI/CLI程序-SSH登录.md)
   - [CLI程序-Xcode&CLT](/工作/CLI/CLI程序-Xcode&CLT.md)
   - [CLI程序-Terminal&Console](/工作/CLI/CLI程序-Terminal&Console.md)
+  
 - 工具
   - [GitHub 使用](/工作/工具/GitHub使用)
   - [MarkDowm 使用](/工作/工具/MarkDown)
@@ -16,15 +17,24 @@
   - [iMove 学习](/工作/工具/iMove学习)
   - [MacOS 快捷键](/工作/工具/MacOS快捷键)
   - [Docsify 使用指南](/工作/工具/Docsify使用指南)
+  
 - 技术
 
   - [Base](/工作/技术/Base.md)
-  - [Command Not Fond](/工作/技术/CommandNotFond.md)
-  - [HTTP](/工作/技术/HTTP.md)
-  - [HTTPS](/工作/技术/HTTPS.md)
   - [加密算法](/工作/技术/加密算法.md)
   - [数据安全](/工作/技术/数据安全.md)
-  - [互联网协议](/工作/技术/互联网协议.md)
+  - [Command Not Fond](/工作/技术/CommandNotFond.md)
+  - [进程&线程](/工作/技术/进程&线程.md)
+  - [network-名词](/工作/技术/network-名词.md)
+  - [network-数据包](/工作/技术/network-数据包.md)
+  
+  - [network-HTTP](/工作/技术/network-HTTP.md)
+  - [network-HTTPS](/工作/技术/network-HTTPS.md)
+  - [network-OSI模型](/工作/技术/network-OSI模型.md)
+  - [network-ping](/工作/技术/network-ping.md)
+  - [network-socket](/工作/技术/network-socket.md)
+  - [network-TCP](/工作/技术/network-TCP.md)
+  
 - 其它
 
   - [共享文档](/工作/其它/共享文档.md)

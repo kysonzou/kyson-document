@@ -371,6 +371,18 @@ This text is really<strong><em>very</em></strong>important
 
 
 
+### 分割线语法
+
+```markdown
+***
+
+---
+
+_________________
+```
+
+
+
 ## 扩展语法
 
 ### 表格

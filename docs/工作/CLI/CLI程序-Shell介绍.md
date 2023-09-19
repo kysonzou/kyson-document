@@ -10,7 +10,7 @@
 
 >其实 Shell 只是提供了一个用户操作系统的入口，我们一般是通过 Shell 去调用其他各种各样的应用程序，最后来达成我们的目的。比如说我们想要知道一个文件的内容，我们会在 Shell 中输入命令<font color = "red"> `cat foo.txt`</font>，然后 Shell 会帮我们运行 <font color = "red">`cat` </font>这个程序，<font color = "red">`cat`</font>再去调用内核提供的 <font color = "red">`open`</font> 等系统调用来获取文件的内容。虽然并不是 Shell 直接去与内核交互，但广义上可以认为是 Shell 提供了与内核交互的用户界面。
 
-至于为什么叫做 Shell，看下图就知道啦。是不是很像一层壳呢？![Sell(壳层)](../assets/Sell(壳层).png)
+至于为什么叫做 Shell，看下图就知道啦。是不是很像一层壳呢？![Sell(壳层)](../assets/CLI程序-Shell介绍-Sell(壳层).png)
 
 Shell 通常可以分为两种：**命令行 Shell** 与 **图形 Shell**。顾名思义，前者提供一个在命令行界面 (CLI)使用的程序，后者提供一个图形用户界面 (GUI)使用的程序。Windows 下的 `explorer.exe` 就是一个典型的图形 Shell（没错，它确实是，因为它接受来自你的指令，并且会帮你与内核交互完成你的指令）
 
@@ -37,7 +37,7 @@ Shell 本身支持的命令并不多，功能也有限，但是 Shell 可以调�
 
 可以将 Shell 在整个 Linux 系统中的地位描述成下图所示的样子。注意“用户”和“其它应用程序”是通过虚线连接的，因为用户启动 Linux 后直接面对的是 Shell，通过 Shell 才能运行其它的应用程序。
 
-![Shell执行命令行](../assets/Shell执行命令行.gif)
+![Shell执行命令行](../assets/CLI程序-Shell介绍-Shell执行命令行.gif)
 
 ### Shell 也支持编程
 
