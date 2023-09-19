@@ -19,15 +19,15 @@
 
 3. Node.js的常用命令行
 
-   以后用到了在了解学习
+   1. 更新node.js
 
-4. 更新node.js
+      ```bash
+      $ brew upgrade node
+      ```
 
-   ```bash
-   $ brew upgrade node
-   ```
+      
 
-   
+   2. 以后用到了在了解学习
 
 ### npm
 
@@ -45,7 +45,15 @@
 
 3. npm常用命令行
 
-   1. 查看npm版本号
+   1. 查看npm源
+   
+      ```bash
+      $ npm config get registry
+      ```
+   
+      
+   
+   2. 查看npm版本号
    
       ```bash
       $ npm -v              #查看npm版本号
@@ -53,17 +61,17 @@
       $ npm -l              #查看各个命令的简单用法
       ```
    
-   2. 更新npm程序
+   3. 更新npm程序
    
-      更新node.js就可以通过更新npm
+      更新node.js就可以更新npm
    
-   3. 搜索软件
+   4. 搜索软件
    
       ```bash
       $ npm search <搜索词> 
       ```
    
-   4. 下载软件
+   5. 下载软件
    
       ```bash
       $ npm install <name> -g         # 默认安装指定模块的最新(@latest)版本
@@ -85,13 +93,13 @@
       1. 将安装包放在 /usr/local 下或者你 node 的安装目录。
       2. 可以直接在命令行里使用。
    
-   5. 更新软件
+   6. 更新软件
    
       ```bash
       $ npm update <name> [-g]   #升级当前项目或全局的指定模块
       ```
    
-   6. 卸载软件
+   7. 卸载软件
    
       ```bash
       $ npm uninstall <name> [-g]  #卸载当前项目或全局模块 
@@ -104,7 +112,7 @@
       $ npm ls [-g]  #好像和 $ npm list [-g] 是类似的命令
       ```
    
-   7. 列出已安装的软件
+   8. 列出已安装的软件
    
       ```bash
       $ npm list [-g]    #查看所有本地或全局安装的模块

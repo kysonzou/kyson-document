@@ -146,6 +146,14 @@ Homebrew目前支持MacOS和Linux系统
    6. brew update
    ```
 
+6. 查看brew源
+
+   ```bash
+   $ git -C "$(brew --repo)" remote get-url origin
+   $ git -C "$(brew --repo homebrew/core)" remote get-url origin 
+   $ git -C "$(brew --repo homebrew/cask)" remote get-url origin 
+   ```
+
    
 
 ### 常用命令
