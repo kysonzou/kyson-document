@@ -23,10 +23,13 @@
 
       ```bash
       $ brew upgrade node
-      ```
-
       
-
+      # 查看node版本号
+      $ node -v
+      ```
+   
+      
+   
    2. 以后用到了在了解学习
 
 ### npm

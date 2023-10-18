@@ -26,6 +26,11 @@
 
    4. [ruby的官网](https://www.ruby-lang.org/en/documentation/installation/)介绍的安装方法，windows可以下载安装包安装
 
+      ```bash
+      # 安装RVM的同时会安装Ruby
+      $ \curl -sSL https://get.rvm.io | bash -s stable --ruby
+      ```
+
       
 
 3. ruby的常用命令
@@ -46,27 +51,26 @@
 
       ```bash
       $ irb
-      
       ```
-
-   4. 更新Ruby
-
-      通过RVM安装的，则通过RVM更新
-
-      ```bash
+   
+4. 更新Ruby
+   
+   通过RVM安装的，则通过RVM更新
+   
+   ```bash
       # 1. 安装新版本
       $ rvm install ruby_version
       # 2. 卸载就版本
       $ rvm remove ruby_version
-      ```
-
-      通过brew安装的，则通过brew更新
-
-      ```bash
+   ```
+   
+   通过brew安装的，则通过brew更新
+   
+   ```bash
       $ brew upgrade ruby
-      ```
-
-      
+   ```
+   
+   
 
 
 ### RVM
@@ -83,7 +87,7 @@
 
    ```bash
    # 通过官方的方法
-   $ gpg2 --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+   $ gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
    
    #也可以使用brew安装
    $ brew install gpg
@@ -101,72 +105,75 @@
 
       ```bash
       $ rvm update
-      ```
-
       
-
+      # 查看rvm版本号
+      $ rvm -v
+      ```
+   
+      
+   
    2. 查看当前使用的ruby版本和gemset信息
-
+   
       ```bash
       $ rvm info
       ```
-
+   
       
-
+   
    3. 查看已安装的ruby列表
-
+   
       ```bash
       $ rvm list
       ```
-
+   
       
-
+   
    4. 查看可安装的所有版本的ruby
-
+   
       ```bash
-      $ rvm list know
+      $ rvm list known
       ```
-
+   
       
-
+   
    5. 安装某个版本的ruby
-
+   
       ```bash
       $ rvm install ruby_version
       ```
-
+   
       
-
+   
    6. 卸载某个版本的ruby
-
+   
       ```bash
       $ rvm remove ruby_version
       ```
-
+   
       
-
+   
    7. 选择使用某个版本的ruby，并且设置为默认
-
+   
       ```bash
       $ rvm use ruby_version --default
       ```
-
+   
       
-
+   
    8. 将默认 Ruby 版本设置为系统中的默认版本
-
+   
       ```bash
       $ rvm use --default
       ```
-
+   
       
-
+   
    9. 切换到系统安装的 Ruby 版本
-
+   
       ```bash
       $ rvm use sysytem
       ```
-
+   
          
    
    10. 创建一个新的 gemset，用于隔离不同项目的 gem 依赖。
@@ -194,8 +201,39 @@
        ```bash
        $ rvm alias delete alias_name
        ```
-
-
+   
+   14. 卸载RVM
+   
+       ```bash
+       $ rvm implode  # 并删除配置文件.zshrc中的相关配置信息
+       ```
+   
+   15. 通过rvm mount将brew安装的挂载到RVM
+   
+       ```bash
+       # 挂载,设置别名为brew_ruby
+       $ rvm mount /opt/homebrew/Cellar/ruby/3.2.2_1 
+       
+       #设置为默认版本
+       $ rvm use ext-brew_ruby  --default 
+       ```
+   
+   ```
+   安装cocoapods提示ruby版本过低（用的是系统自带的ruby），第一反应就是安装RVM，然后通过RVM安装最近版本的ruby并设置为默认使用就行了，结果一直报错，具体错误如下：
+   
+   please read /Users/name/.rvm/log/1615658870_ruby-3.0.0/configure.log There has been an error while running configure
+   
+   打开configure.log文件里面的内容为：
+   _rvm_log_dotted:23: permission denied:
+   
+   以为是权限问题，还使用了
+   sudo rvm install 3.0.0
+   依然不行，貌似包的是brew的问题，但是brew试了是正常的，难道需要重新安装？
+   
+   试了各种方法都不行，后来使用brew安装最新版本ruby，然后通过mount挂载的方式挂载到RVM，再设置为默认版本来来使用
+   ```
+   
+   
 
 **白嫖**
 
@@ -235,6 +273,9 @@
       ```bash
       # 更新RubyGems软件 
       $ gem update --system 
+      
+      # 查看gem版本号
+      $ gem -v
       ```
    
       

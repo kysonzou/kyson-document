@@ -255,6 +255,16 @@ Homebrew目前支持MacOS和Linux系统
     $ brew --prefix   # 安装目录，通常是该路径的 Cellar 目录下
     ```
 
+13. 卸载homebrew
+
+    ```bash
+    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
+    $ rm -rf /opt/homebrew/*
+    $ sudo rm -rf /opt/homebrew
+    ```
+
+    
+
 
 
 ### 参考

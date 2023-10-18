@@ -237,8 +237,16 @@ GitHub 中的 Watch、Fork 和 Star 都是与项目关联的功能，它们的�
 2. **Fork（分叉）：**
 
    - **作用：** Fork 操作会在你的 GitHub 帐户下创建一个项目的副本，你可以在这个副本上进行修改，独立地管理你自己的版本。
+
    - **用途：** Fork 主要用于参与协作和贡献开源项目。你可以在你 fork 的项目上进行修改，然后提交拉取请求将你的更改合并回原始项目。pull requests 就是用于提交拉去请求的。
+
    - **关联性：** Fork 的项目与原始项目有关联性，但是两者独立存在，不会自动同步。同步也是通过pull requests，这个拉去请求是双向的，可以请求自己的副本库合并到原始库里面，也可以请求原始库合并到自己的副本库。
+
+   - **Pull Request**
+
+     ![Github-PullRequest1](../assets/Github-PullRequest1.png)
+
+     ![Github-PullRequest2](../assets/Github-PullRequest2.png)
 
 3. **Star（点赞）：**
 
@@ -247,6 +255,8 @@ GitHub 中的 Watch、Fork 和 Star 都是与项目关联的功能，它们的�
    - **区别：** Star 主要是为了个人的项目收藏和标记，而不是为了跟踪项目的变化或参与贡献。
 
 总之，Watch 用于跟踪项目的动态，Fork 用于创建你自己的项目副本以进行修改和贡献，而 Star 主要用于个人标记和收藏项目。这些功能允许GitHub用户更好地与项目互动，根据自己的需求和兴趣来管理和参与GitHub项目。
+
+Pull Requeat截图
 
 ### github中的tag、release、package
 
