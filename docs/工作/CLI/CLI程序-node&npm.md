@@ -28,9 +28,13 @@
       $ node -v
       ```
    
-      
+   2. 运行js
    
-   2. 以后用到了在了解学习
+      ```bash
+      $ node XXX.js
+      ```
+   
+   3. 以后用到了在了解学习
 
 ### npm
 
@@ -53,8 +57,6 @@
       ```bash
       $ npm config get registry
       ```
-   
-      
    
    2. 查看npm版本号
    

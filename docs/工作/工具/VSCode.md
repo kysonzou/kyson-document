@@ -58,11 +58,25 @@ vscdoe中有支持swift的扩展包《Swift》，再配置CLI的swift运行环�
 >
 >   保存
 
-#### VSCode扩展Dubugger
+#### VSCode支持MySQL
+
+vscdoe中有支持数据库的扩展包《MySQL》《SQLTools》《SQLTools MySQL/MariaDB/TiDB》，再配置CLI的MySQL数据库管理软件接可以使用MySQL管理数据库了
 
 vscdoe中的《CodeLLDB》扩展，是由 LLDB 提供支持的本机调试器， 调试 C++、Rust 和其他编译语言。
 
 #### VSCode扩展Runner
 
 vscdoe中的《Code Runner》扩展，支持运行多种语言的代码片段或代码文件，主流语言几乎都已经支持了
+
+#### VSCode扩展Copilot
+
+vscdoe中的《Github copilot》《Github chat》扩展，都属于Github平台推出的代码辅助工具
+
+#### VSCode扩展Markdown 
+
+vscdoe中的《Markdown Preview Enhanced》，支持Markdown文档的预览
+
+#### VSCode扩展postman
+
+vscdoe中的《postman》，支持轻量级的API测试客户端。
 

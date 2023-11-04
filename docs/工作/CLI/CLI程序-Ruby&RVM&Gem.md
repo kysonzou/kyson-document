@@ -53,24 +53,18 @@
       $ irb
       ```
    
-4. 更新Ruby
+   4. 更新Ruby
    
-   通过RVM安装的，则通过RVM更新
+      通过RVM安装的，则通过RVM更新
    
-   ```bash
+      ```bash
       # 1. 安装新版本
       $ rvm install ruby_version
       # 2. 卸载就版本
       $ rvm remove ruby_version
-   ```
-   
-   通过brew安装的，则通过brew更新
-   
-   ```bash
+      # 3. 通过brew安装的，则通过brew更新
       $ brew upgrade ruby
-   ```
-   
-   
+      ```
 
 
 ### RVM
@@ -217,21 +211,22 @@
        #设置为默认版本
        $ rvm use ext-brew_ruby  --default 
        ```
-   
-   ```
-   安装cocoapods提示ruby版本过低（用的是系统自带的ruby），第一反应就是安装RVM，然后通过RVM安装最近版本的ruby并设置为默认使用就行了，结果一直报错，具体错误如下：
-   
-   please read /Users/name/.rvm/log/1615658870_ruby-3.0.0/configure.log There has been an error while running configure
-   
-   打开configure.log文件里面的内容为：
-   _rvm_log_dotted:23: permission denied:
-   
-   以为是权限问题，还使用了
-   sudo rvm install 3.0.0
-   依然不行，貌似包的是brew的问题，但是brew试了是正常的，难道需要重新安装？
-   
-   试了各种方法都不行，后来使用brew安装最新版本ruby，然后通过mount挂载的方式挂载到RVM，再设置为默认版本来来使用
-   ```
+       
+       ```text
+       安装cocoapods提示ruby版本过低（用的是系统自带的ruby），第一反应就是安装RVM，然后通过RVM安装最近版本的ruby并设置为默认使用就行了，结果一直报错，具体错误如下：
+       
+       please read /Users/name/.rvm/log/1615658870_ruby-3.0.0/configure.log There has been an error while running configure
+       
+       打开configure.log文件里面的内容为：
+       _rvm_log_dotted:23: permission denied:
+       
+       以为是权限问题，还使用了
+       sudo rvm install 3.0.0
+       依然不行，貌似包的是brew的问题，但是brew试了是正常的，难道需要重新安装？
+       
+       试了各种方法都不行，后来使用brew安装最新版本ruby，然后通过mount挂载的方式挂载到RVM，再设置为默认版本来来使用
+       ```
+       
    
    
 
