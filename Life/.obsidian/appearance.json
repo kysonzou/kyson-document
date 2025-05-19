@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "cssTheme": "",
+  "theme": "system",
+  "showRibbon": true,
+  "translucency": true,
+  "enabledCssSnippets": [
+    "style"
+  ]
+}

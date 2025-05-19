@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "b896f8e6f187a063",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ddc5bddad13cf7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87855f50446c2b09",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Dashboard/Dashboard-YouTube.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Dashboard-YouTube"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b051daaa149f2273",
+    "type": "split",
+    "children": [
+      {
+        "id": "a52c0fe275fff6d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81db9c30a3f62792",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "86f15ffd38ee78c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a9577b063b464f67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1777f8111b72c5d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3567e3c14c969861",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b55a20bd7c395c75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01-Dashboard/Dashboard-YouTube.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Dashboard-YouTube 的反向链接列表"
+            }
+          },
+          {
+            "id": "ec9abf043de141a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01-Dashboard/Dashboard-YouTube.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Dashboard-YouTube 的出链列表"
+            }
+          },
+          {
+            "id": "64533b3a1ef82ccc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "69d392cb553bccd4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-Dashboard/Dashboard-YouTube.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Dashboard-YouTube 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "87855f50446c2b09",
+  "lastOpenFiles": [
+    "02-Notes/Google AI 主题蓝图.md",
+    "02-Notes/未命名.md",
+    "01-Dashboard/Dashboard-YouTube.md",
+    "02-Notes/Google的传奇-智能革命（从信息组织到 AI 领航）.md",
+    "02-Notes/Alphabet 相关主题.md",
+    "02-Notes/未命名 2.md",
+    "02-Notes/制度科普解密频道.md",
+    "02-Notes/通用高效 AI 辅助视频创作工作流手册.md",
+    "02-Notes/YouTube 频道想法 - 科技巨头分析 (AI视角).md",
+    "02-Notes/Youtube 频道头脑风暴.md",
+    "02-Notes/高效 AI 交互实用技巧笔记.md",
+    "02-Notes/Google的传奇-未来展望与悬念预告（走向无限可能）.md",
+    "02-Notes/《Google 的传奇》AI 辅助创作流程模板.md",
+    "02-Notes/如何利用AI制作视频.md",
+    "02-Notes/YouTube 频道想法 - 制度产生的故事.md",
+    "02-Notes/素材库.md",
+    "02-Notes/Google 的传奇-从信息革命到 AI 未来.md",
+    "02-Notes/搭建GCP免费节点视频脚本大纲.md",
+    "02-Notes/int-原码、反码、补码.md",
+    "02-Notes/地球公转.md",
+    "02-Notes/珠峰路线.md",
+    "04-Templates/Template-Note.md",
+    "02-Notes/Google的传奇-重构帝国（Alphabet 的诞生与新战略）.md",
+    "02-Notes/Google的传奇-起点与信息革命（从混乱到秩序）.md",
+    "02-Notes/Google的传奇-爆发式扩张（打造全球数字生态）.md",
+    "02-Notes/Google的传奇-不作恶精神与企业文化（信念塑造巨人）.md",
+    "04-Templates",
+    "03-Assets",
+    "02-Notes",
+    "01-Dashboard",
+    "untitled folder 4",
+    "untitled folder 3",
+    "untitled folder 2",
+    "untitled folder"
+  ]
+}

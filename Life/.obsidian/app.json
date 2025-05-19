@@ -1,0 +1,24 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "focusNewTab": true,
+  "newFileFolderPath": "02-Notes",
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "03-Assets",
+  "defaultViewMode": "preview",
+  "tabSize": 4,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "useTab": false,
+  "readableLineLength": true,
+  "smartIndentList": false,
+  "foldHeading": false,
+  "foldIndent": false,
+  "propertiesInDocument": "visible",
+  "trashOption": "system",
+  "userIgnoreFilters": [
+    "CS-Base/"
+  ],
+  "vimMode": false,
+  "promptDelete": false
+}
