@@ -76,11 +76,11 @@ status: Done
 
 3.  **恢复单个文件到某个提交的状态 (`git checkout <commit-id> -- <file>` 或 `git restore --source=<commit-id> <file>`)**:
     ```bash
-    # 使用 checkout (传统方式)
-    git checkout <commit-id> -- <文件路径>
-
     # 使用 restore (Git 2.23+，更推荐)
     git restore --source=<commit-id> <文件路径>
+
+    # 使用 checkout (传统方式)
+    #git checkout <commit-id> -- <文件路径>
     ```
     这会用指定提交中的文件版本覆盖工作区和暂存区中的该文件。**此操作也会丢失该文件当前未提交的修改。**
 

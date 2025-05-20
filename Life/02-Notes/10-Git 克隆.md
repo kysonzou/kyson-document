@@ -11,6 +11,9 @@ status: Done
 ```bash
 git clone <仓库URL>
 git clone <仓库URL> <本地目录名> # 克隆到指定目录
+
+# 克隆制定分支
+git clone --branch <branch_name> --single-branch <repository_url>
 ```
 示例：
 ```bash

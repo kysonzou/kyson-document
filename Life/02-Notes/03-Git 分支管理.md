@@ -21,6 +21,7 @@ Git 的分支功能非常强大且轻量，是其核心特性之一。本笔记�
     git branch -vv         # 查看本地分支及其跟踪的远程分支信息
     git branch --merged    # 查看已合并到当前分支的分支
     git branch --no-merged # 查看尚未合并到当前分支的分支
+    git branch -r          # 查看本地的远程跟踪分支
     ```
 
 2.  **创建新分支**：
@@ -78,7 +79,7 @@ Git 的分支功能非常强大且轻量，是其核心特性之一。本笔记�
 1.  **设置上游分支 (Upstream Branch) / 跟踪远程分支**：
     当第一次推送一个新创建的本地分支时，或想将本地分支与特定的远程分支关联起来时，使用 `-u` 或 `--set-upstream` 选项。
     ```bash
-    git push -u <远程名> <本地分支名> # 推送并设置上游分支
+    git push -u <远程名> <本地分支名>[:远程分支] # 推送并设置上游分支
     # 例如: git push -u origin feature/new-login
     ```
     一旦设置了上游分支，之后在该分支上执行 `git push` 和 `git pull` 就不再需要指定远程名和分支名。

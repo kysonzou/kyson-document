@@ -91,7 +91,7 @@ status: Done
 
     当第一次推送一个新创建的本地分支时，或想将本地分支与特定的远程分支关联起来时，使用 `-u` 或 `--set-upstream` 选项。
     ```bash
-    git push -u <远程名> <本地分支名> # 推送并设置上游分支
+   git push -u <远程名> <本地分支名>[:<远程分支名>] # 推送并设置上游分支
     # 例如: git push -u origin feature/new-login
     ```
     一旦设置了上游分支，之后在该分支上执行 `git push` 和 `git pull` 就不再需要指定远程名和分支名。
@@ -99,11 +99,11 @@ status: Done
 3.  **强制推送 (`--force` / `--force-with-lease`)**：
     **警告：强制推送会覆盖远程仓库的历史，可能导致其他协作者丢失工作。请极度小心并仅在确切知道后果时使用！**
     ```bash
-    git push --force <远程名> <分支名>
+    git push --force <远程名> <本地分支名>[:<远程分支名>]
     ```
 
     ```bash
-    git push --force-with-lease <远程名> <分支名>
+    git push --force-with-lease <远程名> <本地分支名>[:<远程分支名>]
     ```
     *   **`--force-with-lease`**：一个更安全的选择。它只在远程分支的状态与你本地最后一次获取远程信息时的状态一致时才允许强制推送。如果远程分支在你上次获取后有新的提交，推送会失败，防止意外覆盖他人的工作。
     - 通常用于修改了已推送的提交历史（如通过 `rebase` 或 `commit --amend`）后，需要更新远程分支时。

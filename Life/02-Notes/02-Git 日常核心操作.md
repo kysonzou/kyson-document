@@ -54,7 +54,7 @@ Git 的基本工作流程涉及工作区 (Working Directory)、暂存区 (Stagin
     # 先 git add 遗漏的文件 (如果需要)
     git add forgotten-file.txt
     git commit --amend -m "新的或修正后的提交信息"
-    git commit --amend --no-edit # 使用上一次的提交信息，仅合并暂存区的更改
+    git commit --amend --no-edit # 使用上一次的提交信息，仅提交暂存区的更改
     ```
     **注意**：如果已经将此提交推送到远程仓库，应谨慎使用 `git commit --amend`，因为它会修改提交历史。如果其他人已经基于这个旧的提交进行了工作，修改历史会导致问题。
 
