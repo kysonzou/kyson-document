@@ -8,127 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23806f97ae8cb866",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/10-Git 克隆.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "10-Git 克隆"
-            }
-          },
-          {
-            "id": "4b81b672f62ac190",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/Git 仓库管理高级操作：合并与分离.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Git 仓库管理高级操作：合并与分离"
-            }
-          },
-          {
-            "id": "7c3aeb18d635e858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/05-Git 远程协作.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "05-Git 远程协作"
-            }
-          },
-          {
             "id": "a4bd7d8b4990b37a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/03-Git 分支管理.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03-Git 分支管理"
-            }
-          },
-          {
-            "id": "daead3e5c16cef63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/04-Git 合并与变基.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "04-Git 合并与变基"
-            }
-          },
-          {
-            "id": "579753c31b546f61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/02-Git 日常核心操作.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "02-Git 日常核心操作"
-            }
-          },
-          {
-            "id": "c7958ca214d45e42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/06-Git 撤销更改与恢复.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "06-Git 撤销更改与恢复"
-            }
-          },
-          {
-            "id": "995edee8e057c779",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Notes/02-Git 日常核心操作.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "02-Git 日常核心操作"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Notes/02-Git 日常核心操作.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -212,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "02-Git 日常核心操作 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -221,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Notes/02-Git 日常核心操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "02-Git 日常核心操作 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -250,13 +137,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Notes/02-Git 日常核心操作.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02-Git 日常核心操作 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -277,57 +163,57 @@
       "canvas:新建白板": false
     }
   },
-  "active": "995edee8e057c779",
+  "active": "2c7b6923109a04f8",
   "lastOpenFiles": [
-    "02-Notes/07-Git 暂存.md",
-    "02-Notes/08-Git 历史查看与标签.md",
-    "02-Notes/06-Git 撤销更改与恢复.md",
-    "02-Notes/02-Git 日常核心操作.md",
-    "02-Notes/04-Git 合并与变基.md",
-    "02-Notes/05-Git 远程协作.md",
-    "02-Notes/Git 仓库管理高级操作：合并与分离.md",
-    "02-Notes/10-Git 克隆.md",
-    "02-Notes/03-Git 分支管理.md",
-    "02-Notes/09-Git 高级技巧与自定义.md",
-    "02-Notes/Git-.gitignore管理.md",
-    "02-Notes/Git 无法连接 GitHub.md",
-    "02-Notes/Git核心管理逻辑：解密账户、仓库与分支的协同工作.md",
-    "02-Notes/地球公转.md",
-    "02-Notes/搭建GCP免费节点视频脚本大纲.md",
-    "02-Notes/int-原码、反码、补码.md",
-    "02-Notes/VSCode-Gitlens.md",
-    "02-Notes/Google的传奇-重构帝国（Alphabet 的诞生与新战略）.md",
-    "02-Notes/Google的传奇-起点与信息革命（从混乱到秩序）.md",
-    "02-Notes/Google的传奇-爆发式扩张（打造全球数字生态）.md",
-    "02-Notes/Google的传奇-未来展望与悬念预告（走向无限可能）.md",
-    "02-Notes/Google的传奇-智能革命（从信息组织到 AI 领航）.md",
-    "02-Notes/Google的传奇-不作恶精神与企业文化（信念塑造巨人）.md",
-    "02-Notes/Google 的传奇-开幕.md",
-    "02-Notes/Google 的传奇-从信息革命到 AI 未来.md",
-    "02-Notes/Google Cloud IAM 核心概念笔记.md",
+    "Excalidraw/Drawing 2025-04-18 08.28.11.excalidraw.md",
+    "Excalidraw",
+    "CS-Base/redis/data_struct/data_struct.md",
+    "CS-Base/redis/data_struct/command.md",
+    "CS-Base/redis/storage/rdb.md",
+    "CS-Base/redis/storage/bigkey_aof_rdb.md",
+    "CS-Base/redis/storage/aof.md",
+    "CS-Base/redis/module/strategy.md",
+    "CS-Base/mysql/log/how_update.md",
+    "CS-Base/mysql/log/README.md",
+    "CS-Base/redis/cluster/master_slave_replication.md",
+    "CS-Base/redis/cluster/sentinel.md",
+    "CS-Base/redis/cluster/cluster.md",
+    "CS-Base/redis/cluster/cache_problem.md",
+    "CS-Base/redis/architecture/mysql_redis_consistency.md",
+    "CS-Base/redis/base/redis_interview.md",
+    "CS-Base/os/5_schedule/schedule.md",
+    "CS-Base/mysql/transaction/phantom.md",
+    "CS-Base/mysql/transaction/mvcc.md",
+    "CS-Base/os/4_process/thread_crash.md",
+    "CS-Base/os/4_process/process_commu.md",
+    "CS-Base/os/4_process/process_base.md",
+    "CS-Base/os/4_process/pessim_and_optimi_lock.md",
+    "CS-Base/os/4_process/multithread_sync.md",
+    "CS-Base/os/4_process/deadlock.md",
+    "CS-Base/os/4_process/create_thread_max.md",
+    "CS-Base/mysql/lock/update_index.md",
+    "CS-Base/redis/module",
+    "CS-Base/redis/storage",
+    "CS-Base/redis/data_struct",
+    "CS-Base/redis/architecture",
+    "CS-Base/redis/cluster",
+    "CS-Base/redis/base",
+    "CS-Base/mysql/transaction",
+    "CS-Base/mysql/log",
+    "CS-Base/mysql/lock",
+    "03-Assets/数字证书验证流程.png",
+    "03-Assets/数字证书申请流程.png",
+    "03-Assets/地球自转.png",
+    "03-Assets/地球四季变化.png",
+    "03-Assets/地球南北纬线.png",
+    "03-Assets/screenshot of a shortcut-2.jpeg",
+    "03-Assets/screenshot of a shortcut-1.png",
     "03-Assets/network-HTTPS-https握手过程.jpg",
-    "03-Assets/CLI程序-Shell介绍-Shell执行命令行.gif",
-    "03-Assets/CLI程序-Shell介绍-Sell(壳层).png",
-    "03-Assets/世林药品文件2024.11.27.pdf",
-    "03-Assets/float-15张图深入理解浮点数-1.png",
-    "03-Assets/Character-Unicode-1.png",
-    "03-Assets/世林收信2024.6.4.pdf",
-    "03-Assets/世林收信2024.6.4 1.pdf",
-    "03-Assets/世林收信2024.6.4 1 copy.pdf",
-    "03-Assets/世林药品文件2024.3.20 1.pdf",
-    "03-Assets/世林药品文件2024.3.20.pdf",
-    "03-Assets/世林药品担保书格式.jpeg",
+    "03-Assets/network-HTTPS-SSL验证.jpg",
+    "03-Assets/network-HTTPS-SSL申请流程.jpg",
     "设计.canvas",
     "Untitled.canvas",
     "未命名.canvas",
-    "03-Assets/世林寄信2024.11.27.pdf",
-    "03-Assets/世林寄信2025.9.5.pdf",
-    "03-Assets/godaddy-dns记录.png",
-    "03-Assets/godaddy-权威服务器.png",
-    "大而不倒.epub",
-    "03-Assets/世林收信2024.3.26.pdf",
-    "期权金一SOXL.numbers/preview-web.jpg",
-    "期权金一SOXL.numbers/preview.jpg",
     "未命名 1.canvas",
     "未命名 4.canvas",
     "未命名 3.canvas",
