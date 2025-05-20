@@ -11,13 +11,94 @@
             "id": "a4bd7d8b4990b37a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-Notes/03-Git 分支管理.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "03-Git 分支管理"
+            }
+          },
+          {
+            "id": "6c1c02c103506bb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Notes/08-Git 历史查看与标签.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "08-Git 历史查看与标签"
+            }
+          },
+          {
+            "id": "d81007190317135a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Notes/Git 子模块 (Git Submodule) 笔记.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Git 子模块 (Git Submodule) 笔记"
+            }
+          },
+          {
+            "id": "f694f97fab465c5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Notes/Git-“分离 HEAD” 状态.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Git-“分离 HEAD” 状态"
+            }
+          },
+          {
+            "id": "3cdf8e477285c406",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Notes/Git-.gitignore管理.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Git-.gitignore管理"
+            }
+          },
+          {
+            "id": "1915bc08aad77010",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Notes/Git-GitLab Flow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Git-GitLab Flow"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -91,6 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02-Notes/Git-.gitignore管理.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Git-.gitignore管理 的反向链接列表"
             }
           },
           {
@@ -109,11 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02-Notes/Git-.gitignore管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Git-.gitignore管理 的出链列表"
             }
           },
           {
@@ -137,16 +220,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02-Notes/Git-.gitignore管理.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Git-.gitignore管理 的大纲"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,8 +247,17 @@
       "canvas:新建白板": false
     }
   },
-  "active": "2c7b6923109a04f8",
+  "active": "3cdf8e477285c406",
   "lastOpenFiles": [
+    "02-Notes/01-Git 基础与配置.md",
+    "02-Notes/Git核心管理逻辑：解密账户、仓库与分支的协同工作.md",
+    "02-Notes/Git-GitHub Flow.md",
+    "02-Notes/Git-GitLab Flow.md",
+    "02-Notes/Git-“分离 HEAD” 状态.md",
+    "02-Notes/Git 子模块 (Git Submodule) 笔记.md",
+    "02-Notes/03-Git 分支管理.md",
+    "02-Notes/08-Git 历史查看与标签.md",
+    "02-Notes/10-Git 克隆.md",
     "Excalidraw/Drawing 2025-04-18 08.28.11.excalidraw.md",
     "Excalidraw",
     "CS-Base/redis/data_struct/data_struct.md",
@@ -183,15 +276,6 @@
     "CS-Base/redis/base/redis_interview.md",
     "CS-Base/os/5_schedule/schedule.md",
     "CS-Base/mysql/transaction/phantom.md",
-    "CS-Base/mysql/transaction/mvcc.md",
-    "CS-Base/os/4_process/thread_crash.md",
-    "CS-Base/os/4_process/process_commu.md",
-    "CS-Base/os/4_process/process_base.md",
-    "CS-Base/os/4_process/pessim_and_optimi_lock.md",
-    "CS-Base/os/4_process/multithread_sync.md",
-    "CS-Base/os/4_process/deadlock.md",
-    "CS-Base/os/4_process/create_thread_max.md",
-    "CS-Base/mysql/lock/update_index.md",
     "CS-Base/redis/module",
     "CS-Base/redis/storage",
     "CS-Base/redis/data_struct",

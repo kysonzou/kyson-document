@@ -42,9 +42,7 @@ Thumbs.db
 
 然后，你需要告诉 Git 这个文件的位置。通过命令行执行以下命令：
 
-Bash
-
-```bash
+```Bash
 git config --global core.excludesfile ~/.gitignore_global
 ```
 

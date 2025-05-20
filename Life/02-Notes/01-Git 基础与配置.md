@@ -21,8 +21,10 @@ status: Done
     git config --global user.name "Your Name"
     git config --global user.email "youremail@example.com"
     ```
-    * `--global`: 表示这个配置应用于当前用户的所有 Git 仓库。
-    * 还有 `--local` (仅当前仓库) 和 `--system` (系统所有用户) 级别，优先级为 `local > global > system`。
+    * `--global`: 表示这个配置应用于当前用户的所有 Git 仓库
+    * `--local` (仅当前仓库) 
+    - `--system` (系统所有用户) 级别
+    - 优先级为 `local > global > system`。
 
 2.  **查看 Git 配置**：
     ```bash

@@ -137,6 +137,6 @@ status: Done
     ```
     如果你想在这个状态上进行修改和新的提交，最好基于这个标签创建一个新的分支：
     ```bash
-    git switch -b branch-from-tag-<标签名> <标签名>
+    git switch -c branch-from-tag-<标签名> <标签名>
     # 例如: git checkout -b hotfix-for-v1.0.0 v1.0.0
     ```
