@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="UTF-8" />
+   <!-- 视图配置 -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+   <!-- 网站描述 -->
+   <meta name="description" content="">
+   <!-- seo关键字 -->
+   <meta name="keywords" content="">
+   <!-- 网站标题 -->
+   <title>生活整理</title>
+	
+
+
+    <!-- 主题 Themes (light + dark) -->
+   <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+   <!-- 主题属性自定义 Custom Styles -->
+   <style>
+     :root {
+       /* --theme-hue: 325; */
+     }
+   </style>
+
+
+  </head>
+  <body>
+    <!-- 定义加载时候的动作 -->
+    <div id="app">CPU疯狂燃烧中...</div>
+    <script>
+      // 配置 Docsify
+      window.$docsify = {
+	
+	//项目名称
+	//name: '学习',
+        //nameLink: '/',
+
+	//侧边栏支持   
+        loadSidebar: true, 
+	subMaxLevel: 4,
+        maxLevel: 6, 
+        sidebarDisplayLevel: 1, // 第三方docsify-sidebar-collapse插件
+
+	//导航栏支持
+	loadNavbar: true,
+	
+	//封面支持
+	coverpage: true,    
+
+	//切换页面后是自动跳转到页面顶部
+	auto2top: true,
+
+	//显示文章标题
+	autoHeader: true,
+
+	//首页不可滚动
+        //onlyCover: true,
+
+	//设置路由模式，不知道什么用
+	//routerMode: 'history',
+
+	//距离顶部距离
+	topMargin: 40,
+
+	//小屏设备下合并导航栏到侧边栏
+        mergeNavbar: true,
+        
+        //右上角github链接
+	repo: 'https://github.com/kysonzou/MarkDownDocument',
+
+	//搜索配置
+         search:{
+                  maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+                  paths:'auto', // []or 'auto'
+                  placeholder: '搜索',
+                  noData: '找不到结果',
+                  depth: 3,
+                  hideOtherSidebarContent: false, //是否隐藏其它侧边栏的内容
+                  // 避免搜索索引冲突
+                  // 同一域下的多个网站之间
+                  //namespace: 'Docsify-Guide',
+            },
+	
+	//在线编辑
+  
+     };
+    </script>
+
+    <!-- docsify的js依赖 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <!-- docsify-themeable 主题 的js依赖 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <!-- plugins 支持侧边栏折叠，第三方github -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- 搜索 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <!-- 代码粘贴 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+    <!-- 代码高亮 --> 
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+    <!-- emoji --> 
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <!-- 图片缩放 --> 
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+ </body>
+</html>
